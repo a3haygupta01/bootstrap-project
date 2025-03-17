@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>icoder - Heaven for programmers</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <!-- Nav bar html-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">i Coder</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Technology</a></li>
+                            <li><a class="dropdown-item" href="#">Web Devlopment</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                            <li><a class="dropdown-item" href="#">Write for Us</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact US</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+                <div class=" mx-2">
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SignUpModal"> Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+<!--Moadal for login and signup-->
+
+
+
+<!-- Login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="LoginModalLabel">Login to i Coder</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                
+                <!-- Add login form fields -->
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Confirm Password">
+                    <label for="floatingPassword">Confirm Password</label>
+                  </div>
+                  
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Signup Modal -->
+<div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="SignUpModalLabel">Get i Coder Account</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                
+                <!-- Add signup form fields -->
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                   </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Confirm Password">
+                    <label for="floatingPassword">Confirm Password</label>
+                   </div>
+                 
+                
+
+                  
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Image slider for header-->
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://plus.unsplash.com/premium_photo-1682140999442-e9e2a5f55be6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    height="450" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to iCoder</h2>
+                    <p>Technology News, Devlopment and Trends</p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-primary">Web Devlopment</button>
+                    <button class="btn btn-success">Tech Fun</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://plus.unsplash.com/premium_photo-1682141002094-668233a72d60?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    height="450" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>The Best Coding Blog</h2>
+                    <p>Technology News, Devlopment and Trends</p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-primary">Web Devlopment</button>
+                    <button class="btn btn-success">Tech Fun</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://plus.unsplash.com/premium_photo-1682140985389-bb56f51f5305?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    height="450" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Award winning Blog</h2>
+                    <p>Technology News, Devlopment and Trends</p>
+                    <button class="btn btn-danger">Technology</button>
+                    <button class="btn btn-primary">Web Devlopment</button>
+                    <button class="btn btn-success">Tech Fun</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container my-3 , ml-0.5,  mr-0.5">
+        <h2
+            style="font-style: italic; background-color: black; width: 30%; color: white; margin: 10px 0px ; padding: 5px 5px;">
+           1. What should i Coder do</h2>
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h3 class="mb-0">Global confrences</h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                            lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://plus.unsplash.com/premium_photo-1690303193705-eec163806599?q=80&w=1884&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Design</strong>
+                        <h3 class="mb-0">Designing challenges</h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://plus.unsplash.com/premium_photo-1721076216232-2dde64e1b95b?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Coding</strong>
+                        <h3 class="mb-0">Coading challenges</h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://media.istockphoto.com/id/1451302532/photo/diverse-criminals-hacking-security-server-with-malware.jpg?s=612x612&w=0&k=20&c=LhKsM3tu9BFYqkTW3yzvkEzKT55TAbIIw7lTZ2SvRzg="
+                            alt="">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">Project</strong>
+                        <h3 class="mb-0">Project Building</h3>
+                        <div class="mb-1 text-muted">Nov 11</div>
+                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                            additional content.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250"
+                            src="https://media.istockphoto.com/id/1277686250/photo/architect-work-on-digital-tablet.jpg?s=612x612&w=0&k=20&c=LuSYdNb-psxeSnXldOhUKCChF0Btaf2awMN5lFWmhUs="
+                            alt="">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!--About us-->
+    
+
+    <div class="container my-4 ">
+        <h2
+        style="font-style: italic; background-color: black; width: 35%; color: white; margin: 10px 0px ; padding: 5px 5px;">
+       2. All About i Coder Company</h2>
+     
+        <div class="row featurette   ">
+            <div class="col-md-7  d-flex  flex-column  justify-content-center align-item-center">
+                <h2 class="featurette-heading">it's All started with iCoder idea <span class="text-muted">It’ll blow
+                        your
+                        mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
+                    prose
+                    here.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="" width="500px" height="500px">
+
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                </svg>
+
+            </div>
+        </div>
+
+
+
+        <div class="row featurette align-items-center g-4">
+            <div class="col-md-7 order-md-2 d-flex flex-column justify-content-center align-items-start">
+                <h2 class="featurette-heading">we started iCoder in 1997 <span class="text-muted">See for
+                        yourself.</span></h2>
+                <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how
+                    this
+                    layout would work with some actual real-world content in place.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Featurette Image" class="img-fluid rounded"
+                    style="width: 500px; height: 500px; object-fit: cover;">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="row featurette   ">
+            <div class="col-md-7  d-flex  flex-column  justify-content-center align-item-center">
+                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
+                        mind.</span></h2>
+                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
+                    prose
+                    here.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+                    alt="" width="500px" height="500px">
+
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+                </svg>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--Contact Us-->
+
+
+
+    <div class="container my-4">
+        
+    <div class="container my-4 ">
+        <h2
+        style="font-style: italic; background-color: black; width: 33%; color: white; margin: 10px 0px ; padding: 5px 5px;">
+       3. Contact i Coder Company</h2>
+     
+    </div>
+
+    <div class="container my-4">
+        <form class="row g-3">
+            <div class="col-md-4">
+                <label for="validationDefault01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationDefault02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationDefault02" value="" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationDefaultUsername" class="form-label">Email</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                    <input type="text" class="form-control" id="validationDefaultUsername"
+                        aria-describedby="inputGroupPrepend2" required>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationDefault03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">State</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                        Agree to terms and conditions
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+
+
+
+    </div>
+
+
+
+
+    <!--footer section-->
+
+    <footer class="container my-10">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2024–2025 iCoder Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
